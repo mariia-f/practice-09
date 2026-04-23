@@ -1,0 +1,2 @@
+import{r as n}from"./assets/refs-pdvG6IeN.js";/* empty css                      */const o=e=>{const t=e.target.value.trim();localStorage.setItem("input",JSON.stringify(t)),n.welcomeText.textContent=`Привіт, ${t}!`},a=()=>{try{const e=localStorage.getItem("input"),t=e?JSON.parse(e):"";t?(n.welcomeInp.value=t,n.welcomeText.textContent=`Привіт, ${t}!`):n.welcomeText.textContent="Привіт, гість!"}catch(e){console.log(e.message)}};document.addEventListener("DOMContentLoaded",a);n.welcomeInp.addEventListener("input",o);
+//# sourceMappingURL=welcome-task.js.map
